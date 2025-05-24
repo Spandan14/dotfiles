@@ -6,6 +6,6 @@ return {
       vim.g.copilot_filetypes = {
         ["*"] = true,  -- Enable for all file types
       }
-    end,
+    end
 }
 
