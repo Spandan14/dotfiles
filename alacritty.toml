@@ -1,0 +1,29 @@
+[window]
+dimensions.lines = 60
+dimensions.columns = 200
+position = {x = 200, y = 200}
+opacity = 0.8
+decorations = "Full"
+option_as_alt = "Both"
+dynamic_title = true
+
+[font]
+normal = {family = "CommitMono Nerd Font", style = "Regular"}
+bold = {family = "CommitMono Nerd Font", style = "Bold"}
+italic = {family = "CommitMono Nerd Font", style = "Italic"}
+size = 12.0
+
+[general]
+import = ["./nightfly.toml"]
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Right", mods = "Shift", chars = "\u001B\r"},
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
+
+# [[keyboard.bindings]]
+# key = "Return"
+# mods = "Shift"
+# chars = "\u001B\r"
